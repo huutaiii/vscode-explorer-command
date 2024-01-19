@@ -1,3 +1,13 @@
+Modified to be installed outside of VSCode directory so that when VSCode updates itself the package files are not deleted
+```
+├───Microsoft VS Code
+│   ├───...
+│   └───code.exe
+└───code-explorer-command
+    ├───AppxManifest.xml
+    └───code_explorer_command.dll
+```
+
 # vscode-explorer-command
 
 > Generates shell extension dll for x86, x64 and arm64 windows
