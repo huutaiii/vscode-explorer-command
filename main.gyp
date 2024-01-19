@@ -52,6 +52,7 @@
     'type': 'shared_library',
     'defines': [
       'EXE_NAME="Code.exe"',
+      'DIR_NAME="Microsoft VS Code"',
     ],
     'conditions': [
       [ 'OS=="win"', {
